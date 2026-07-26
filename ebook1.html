@@ -3,144 +3,168 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>El Código de la Seducción</title>
 
 <link rel="stylesheet" href="styles.css">
 
 <style>
+
 body{
-background:#0f0f10;
-color:white;
-font-family:Arial,sans-serif;
-margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial,Helvetica,sans-serif;
+    margin:0;
+}
+
+.header{
+    background:#1b1b1b;
+    padding:20px;
+    text-align:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
 }
 
 .container{
-max-width:900px;
-margin:auto;
-padding:40px 20px;
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+    text-align:center;
 }
 
-img{
-width:260px;
-display:block;
-margin:auto;
-border-radius:10px;
-box-shadow:0 0 30px rgba(255,255,255,.08);
+.cover{
+    width:320px;
+    max-width:90%;
+    border-radius:12px;
+    box-shadow:0 0 25px rgba(0,0,0,.6);
 }
 
 h1{
-text-align:center;
-margin-top:30px;
-font-size:40px;
+    margin-top:30px;
+    font-size:40px;
 }
 
-.sub{
-text-align:center;
-color:#bdbdbd;
-font-size:20px;
-margin-bottom:40px;
+.subtitle{
+    color:#d9b76d;
+    font-size:20px;
 }
 
-.card{
-background:#1b1b1b;
-padding:30px;
-border-radius:12px;
-margin-top:30px;
-}
-
-.card h2{
-color:#ffd54f;
-}
-
-ul{
-line-height:1.9;
+.description{
+    margin-top:25px;
+    line-height:1.8;
+    color:#cccccc;
+    font-size:18px;
 }
 
 .price{
-text-align:center;
-font-size:48px;
-font-weight:bold;
-margin:35px 0;
-color:#4CAF50;
+    margin-top:30px;
+    font-size:38px;
+    color:#00d26a;
+    font-weight:bold;
 }
 
 .buy{
-display:block;
-width:320px;
-margin:auto;
-padding:18px;
-background:#ff9800;
-border:none;
-border-radius:10px;
-font-size:22px;
-font-weight:bold;
-cursor:pointer;
-color:white;
+    margin-top:25px;
+    background:#d4af37;
+    color:#111;
+    border:none;
+    padding:18px 40px;
+    font-size:22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
 }
 
 .buy:hover{
-background:#fb8c00;
+    background:#f2cb52;
 }
 
 .back{
-display:block;
-text-align:center;
-margin-top:30px;
-color:#bbb;
-text-decoration:none;
+    margin-top:40px;
 }
+
+.back a{
+    color:white;
+    text-decoration:none;
+}
+
+footer{
+    margin-top:70px;
+    padding:30px;
+    text-align:center;
+    color:#888;
+}
+
 </style>
 
 </head>
 
 <body>
 
+<header class="header">
+
+<div class="logo">
+Psicología Oscura Proyecto X
+</div>
+
+</header>
+
 <div class="container">
 
-<img src="https://placehold.co/400x600/111111/FFFFFF?text=El+Código+de+la+Seducción">
+<img
+class="cover"
+src="portada-codigo-seduccion.jpg"
+alt="El Código de la Seducción">
 
 <h1>El Código de la Seducción</h1>
 
-<p class="sub">
-Una guía para comprender mejor la atracción, la comunicación y la psicología del comportamiento humano.
+<p class="subtitle">
+El arte de la influencia, la persuasión y la atracción.
 </p>
 
-<div class="card">
+<p class="description">
 
-<h2>¿Qué encontrarás?</h2>
+Descubre principios de comunicación, influencia y comportamiento humano desde una perspectiva psicológica. Este eBook reúne conceptos sobre interacción social, persuasión, lenguaje corporal y desarrollo personal presentados con fines educativos.
 
-<ul>
-
-<li>✔ Principios de comunicación interpersonal.</li>
-
-<li>✔ Conceptos sobre atracción y percepción.</li>
-
-<li>✔ Psicología del lenguaje corporal.</li>
-
-<li>✔ Cómo generar una mejor primera impresión.</li>
-
-<li>✔ Desarrollo de confianza personal.</li>
-
-<li>✔ Estrategias para conversaciones más efectivas.</li>
-
-</ul>
-
-</div>
+</p>
 
 <div class="price">
-$29 USD
+$19.99 USD
 </div>
 
-<button class="buy">
+<button class="buy" onclick="comprar()">
 Comprar ahora
 </button>
 
-<a class="back" href="index.html">
+<div class="back">
+
+<a href="index.html">
 ← Volver al inicio
 </a>
 
 </div>
 
+</div>
+
+<footer>
+
+© 2026 Psicología Oscura Proyecto X
+
+</footer>
+
+<script>
+
+function comprar(){
+
+alert("Próximamente podrás comprar este eBook desde esta página.");
+
+}
+
+</script>
+
 </body>
+
 </html>
