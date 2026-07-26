@@ -56,8 +56,11 @@ function showBooks() {
           y el comportamiento humano.
         </p>
         <br>
-        <button class="primary-button">
-          Ver ebook
+        <button
+  class="primary-button"
+  onclick="window.location.href='ebook1.html'">
+  Ver ebook
+</button>
         </button>
       </div>
 
