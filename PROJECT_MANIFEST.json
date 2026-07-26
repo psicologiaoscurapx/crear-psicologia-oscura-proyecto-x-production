@@ -1,0 +1,6 @@
+{
+  "project": "Psicología Oscura Proyecto X",
+  "version": "1.0.0-production-structure",
+  "status": "organized",
+  "next": "configure hosting, database, SMTP, Stripe and legal details"
+}

@@ -1,0 +1,16 @@
+# Checklist de producción
+- [ ] Subir estructura al repositorio
+- [ ] No subir `.env` ni secretos
+- [ ] Configurar Node.js 20+
+- [ ] Configurar base de datos persistente
+- [ ] Configurar almacenamiento privado de ebooks
+- [ ] Cargar los 5 ebooks
+- [ ] Generar previews de 3 páginas
+- [ ] Configurar SMTP
+- [ ] Configurar Stripe y webhook
+- [ ] Completar políticas legales
+- [ ] Probar registro/login/verificación/reset
+- [ ] Probar Premium y cancelación
+- [ ] Probar bloqueo de contenido completo
+- [ ] Configurar dominio y HTTPS
+- [ ] Backups y monitoreo
